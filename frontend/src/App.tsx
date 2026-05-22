@@ -14,7 +14,7 @@ import DashboardLayout from "./pages/admin/DashboardLayout";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/my-blog">
       <AuthProvider>
         <Routes>
           <Route element={<Layout />}>
